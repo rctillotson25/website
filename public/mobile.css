@@ -1,0 +1,16 @@
+html { 
+  background: url(static/rising-tide-mobile.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+/*
+ * Account for different sizes of mobile screens by making the 
+ * font automatically scale. It isn't perfect, but it is close.
+ */
+header h2 {
+  font-size: 7vw;
+}
